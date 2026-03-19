@@ -20,8 +20,8 @@ class Shop(Base):
     phone = Column(String)
     address = Column(String)
     beat = Column(String)
-    lat = Column(Float, nullable=True)
-    lon = Column(Float, nullable=True)
+    lat = Column(String, nullable=True)
+    lon = Column(String, nullable=True)
 
 
 class Invoice(Base):
